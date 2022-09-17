@@ -1,0 +1,51 @@
+.feed{
+    padding: 10px;
+    background-color: white;
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.29);
+}
+.feed .cima{
+    display: flex;
+}
+.feed input{
+    width: calc(100% - 90px);
+    background-color: #E1E1E1;
+    padding: 10px;
+    vertical-align: top;
+    margin: 5px; 
+    border: 0px;
+    border-radius: 10px;
+}
+.feed input:focus{
+    outline: none;
+}
+.feed .share{
+    display: flex;
+    justify-content: space-between;
+
+}
+.feed .share > div{
+    display: flex;
+    flex-direction: row;
+}
+.feed .share > div p{
+    color: rgb(63, 63, 63);
+    
+}
+.feed .share > div svg{
+    padding-top: 16px;
+    padding-right: 5px;  
+    width:25px;
+    height: 25px; 
+}
+.feed .share .live svg{
+    color: red;
+}
+.feed .share .img svg{
+    color: green;
+}
+.feed .share .emoji svg{
+    color: rgb(171, 171, 0);
+    
+}

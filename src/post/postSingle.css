@@ -1,0 +1,71 @@
+.postSingle{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.341);
+    border-radius: 10px ;
+}
+.postSingle .flex{
+    display: flex;
+}
+.postSingle h1{
+    font-size: 15px;
+    font-weight: 400;   
+}
+.postSingle .cima{
+    margin-left: 10px;
+}
+.postSingle .more svg{
+    margin-top: 10px;
+}
+.postSingle .right{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}  
+.postSingle .cima h1{
+    vertical-align: top;
+}
+.postSingle .cima p{
+    margin-top: -10px;
+}
+.postSingle .cima .horario svg{
+    margin-top: -6px;
+    margin-left: 5px;
+}
+.postSingle .cima .horario{
+    display: flex;
+}
+.postSingle .sobre{
+    margin: 0 30px;
+    width: 90%;
+    word-wrap: break-word;
+}
+.postSingle .baixo{
+    display: flex;
+    font-size: 14px;
+    color: rgb(69, 69, 69);
+    justify-content: space-between;
+}
+.postSingle .baixo .quant svg{
+    color: blue;
+    padding-top: 16px;
+}
+.postSingle .baixo .quant p{
+    margin-left: 10px;
+}
+.postSingle .baixo .quant{
+    display: flex;
+}
+.postSingle .areaBottom{
+    border-top: 1px solid rgb(69, 69, 69);
+    width: 95%;
+    padding: 10px;
+    color: rgb(69, 69, 69);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.postSingle .areaBottom > div{
+    cursor: pointer ;
+}

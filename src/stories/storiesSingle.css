@@ -1,0 +1,27 @@
+.stories > div{
+    width: 19.5%;
+    margin: 0px 0.5%;
+
+}
+.stories .storieSingle{
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 15px;
+    padding-top: 80px;
+    position: relative;
+}
+.stories .storieSingle p{
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    max-width: 95%;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgba(56, 56, 56, 0.533);
+    border-radius: 10px;
+    padding: 5px;
+        
+    
+}
